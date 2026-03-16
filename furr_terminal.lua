@@ -19,9 +19,9 @@ monitor.setTextColor(colors.lime)
 monitor.clear()
 monitor.setCursorPos(1,1)
 
-monitor.write("Furr Army Terminal V Alpha 0.6")
+slowPrint(monitor,"Furr Army Terminal V Alpha 0.6",0.10)
 monitor.setCursorPos(1,2)
-monitor.write("----------------------------")
+slowPrint(monitor,"----------------------------"0.10)
 monitor.setCursorPos(1,3)
 slowPrint(monitor,"System Ready",0.03)
 
