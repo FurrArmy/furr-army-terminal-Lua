@@ -1,3 +1,12 @@
+function slowPrint(text, speed)
+    speed = speed or 0.05 -- default delay
+    for i = 1, #text do
+        write(text:sub(i,i))
+        sleep(speed)
+    end
+    print()
+end
+
 local monitor = peripheral.find("monitor")
 
 if not monitor then
